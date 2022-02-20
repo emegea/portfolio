@@ -1,8 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *,
 *::after,
-*::before {
+*::before,
+dl, ol, ul, p, h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration:none !important;
+  list-style:none !important;
 }
+body {
+  background: url(assets/img/fondo.png) fixed;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6, p { font-family:'Inter', sans-serif; }
+h2, a { color:#C80A64; }
+a:hover { color:#80063f; }
+h2 { font-weight:bold; }
+.container { background:#e5e5e5; margin:1.5em auto; }
+.progress { background-color:#111; }
+.progress-bar-striped {
+  background-image: linear-gradient(45deg,
+  #C80A64 25%, #111 25%, #111 50%, #C80A64 50%, #C80A64 75%, #111 75%, #111); 
+}
+

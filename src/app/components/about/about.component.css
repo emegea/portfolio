@@ -1,0 +1,9 @@
+.avatar {
+    margin-top:-100px;
+}
+.avatar img { 
+    width:200px;
+    border-radius:100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    border:5px solid #C80A64;
+}
