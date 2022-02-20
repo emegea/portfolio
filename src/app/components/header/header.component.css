@@ -48,3 +48,8 @@ header {
     /* flex-wrap: nowrap; */
     justify-content: center;
 }
+.banner img {
+    height:400px;
+    width:1200px;
+
+}
