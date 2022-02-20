@@ -1,0 +1,50 @@
+header {
+    background-color:#00358e;
+}
+.nav {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:0.5;
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+}
+.logoap {
+    margin:3px;
+}
+.pnglogoap {
+    width:250px;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.socialmediaul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.socialmediali {
+    list-style:none;
+    margin:0.5em;
+}
+.logosocial {
+    height:100px;
+}
+.logosocialanchor {
+    text-decoration:none;
+    color:#fff;
+}
+.logosocial {
+    height:50px;
+}
+.banner { 
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+}
