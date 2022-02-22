@@ -7,3 +7,7 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.8);
     border:5px solid #C80A64;
 }
+.info {
+    display:flex;
+    justify-content:space-between;
+}
