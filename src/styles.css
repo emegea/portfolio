@@ -17,7 +17,11 @@ h1, h2, h3, h4, h5, h6, p { font-family:'Inter', sans-serif; }
 h2, a { color:#C80A64; }
 a:hover { color:#80063f; }
 h2 { font-weight:bold; }
+h2.titulo { margin:0 0 2%; }
 .container { background:#e5e5e5; margin:1.5em auto; }
+.iconito { padding:10px; border-radius:100%; }
+.iconito:hover { background: rgb(0,0,0,0.5); }
+
 .progress { background-color:#111; }
 .progress-bar-striped {
   background-image: linear-gradient(45deg,

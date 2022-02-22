@@ -1,5 +1,8 @@
 .avatar {
     margin-top:-100px;
+    display:flex;
+    align-items: flex-end;
+    padding:0 2%;
 }
 .avatar img { 
     width:200px;
@@ -7,7 +10,21 @@
     box-shadow: 0 0 20px rgba(0,0,0,0.8);
     border:5px solid #C80A64;
 }
-.info {
+.info, .card {
+    padding:2%;
+}
+.info, .card div {
     display:flex;
     justify-content:space-between;
+}
+.insignias { 
+    margin:0 0 2% 0;
+}
+.insignias a { 
+    display:flex;
+    font-size:14px;
+}
+.insignias a img {
+    margin:0 10px 0 0;
+    height:50px;
 }

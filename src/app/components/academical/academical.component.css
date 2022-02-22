@@ -1,0 +1,19 @@
+#academical {
+    padding:2%;
+}
+#academical>div, 
+#academical ul li article, 
+#academical ul li article .uno {
+    display:flex;
+    justify-content:space-between;
+}
+#academical ul li {
+    margin:0 0 2% 0;
+}
+.uno img {
+    height: 100px;
+    margin: 0 10px 0 0;
+}
+.uno h4 {
+    font-size:18px;
+}

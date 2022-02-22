@@ -1,0 +1,19 @@
+#experience {
+    padding:2%;
+}
+#experience>div, 
+#experience ul li article, 
+#experience ul li article .uno {
+    display:flex;
+    justify-content:space-between;
+}
+#experience ul li {
+    margin:0 0 2% 0;
+}
+.uno img {
+    height: 100px;
+    margin: 0 10px 0 0;
+}
+.uno h4 {
+    font-size:18px;
+}

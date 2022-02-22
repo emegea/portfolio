@@ -1,0 +1,19 @@
+#skills {
+    padding:2%;
+}
+#skills>div, 
+#skills ul li article, 
+#skills ul li article .uno {
+    display:flex;
+    justify-content:space-between;
+}
+#skills ul li {
+    margin:0 0 2% 0;
+}
+.uno img {
+    height: 100px;
+    margin: 0 10px 0 0;
+}
+.uno h4 {
+    font-size:18px;
+}

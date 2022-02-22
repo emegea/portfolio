@@ -1,0 +1,19 @@
+#projects {
+    padding:2%;
+}
+#projects>div, 
+#projects ul li article, 
+#projects ul li article .uno {
+    display:flex;
+    justify-content:space-between;
+}
+#projects ul li {
+    margin:0 0 2% 0;
+}
+.uno img {
+    height: 100px;
+    margin: 0 10px 0 0;
+}
+.uno h4 {
+    font-size:18px;
+}
