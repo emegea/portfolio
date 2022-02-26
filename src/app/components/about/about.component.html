@@ -1,12 +1,12 @@
 <section id="about" class="container">
     <section class="avatar">
-        <img src="/assets/img/avatar.jpg" alt="">
+        <div>
+            <img src="/assets/img/avatar.jpg" alt="">
+            <a href="#">
+                <i class="fa fa-pen iconito" (click)="saludo()"></i>
+            </a>
+        </div>
     </section>
-    <div>
-        <a href="#">
-            <i class="fa fa-pen iconito" (click)="saludo()"></i>
-        </a>
-    </div>
     <section class="info">
         <div>
             <h2>Martín Andriuolo</h2>
@@ -50,3 +50,40 @@
         </div>
     </section>
 </section><!-- About -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>USUARIOS</h1>
+
+            <form id="frm_nu">
+            <div class="mb-3">
+                <input id="nombre" class="form-control" type="text" placeholder="nombre" required>
+            </div>
+                <div class="mb-3">
+                <input id="apellido" class="form-control" type="text" placeholder="apellido" required>
+            </div>
+            <div class="mb-3">
+                <input id="dni" class="form-control" type="text" placeholder="DNI" required>
+            </div>
+            <button id="btn_nu" type="button" class="btn btn-primary mb-3">Agregar Usuario</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <table class="table">
+                <tr>
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>DNI</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tbody id="lista_usuarios">
+
+
+                </tbody>
+
+
+
+            </table>

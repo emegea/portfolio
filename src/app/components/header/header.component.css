@@ -72,6 +72,7 @@ button.login:hover {
     /* flex-wrap: nowrap; */
     justify-content: center;
     margin-top:75px;
+    margin-bottom:0;
 }
 .banner img {
     height:400px;

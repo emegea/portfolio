@@ -1,3 +1,13 @@
+#about {
+    padding:2%;
+    margin-top:0;
+}
+#about>.avatar,
+#about ul li article, 
+#about ul li article .uno {
+    display:flex;
+    justify-content:space-between;
+}
 .avatar {
     margin-top:-100px;
     display:flex;
@@ -9,6 +19,12 @@
     border-radius:100%;
     box-shadow: 0 0 20px rgba(0,0,0,0.8);
     border:5px solid #C80A64;
+}
+.avatar div { 
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
 }
 .info, .card {
     padding:2%;
@@ -27,4 +43,23 @@
 .insignias a img {
     margin:0 10px 0 0;
     height:50px;
+}
+
+@media (max-width:480px){
+
+    .avatar {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .avatar div {
+        display:flex;
+        flex-direction:column;
+        align-items: flex-end;
+    }
+    .avatar div i { margin-top:-20px; }
+    .info, .botonesAbout { display:flex; flex-direction:column; }
+
+
+
 }

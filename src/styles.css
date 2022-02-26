@@ -19,8 +19,8 @@ a:hover { color:#80063f; }
 h2 { font-weight:bold; }
 h2.titulo { margin:0 0 2%; }
 .container { background:#e5e5e5; margin:1.5em auto; }
-.iconito { padding:10px; border-radius:100%; }
-.iconito:hover { background: rgb(0,0,0,0.5); }
+.iconito { padding:10px; border-radius:100%; background:#C80A64; color:#fff;  }
+.iconito:hover { background: rgb(0,0,0,0.8); }
 
 .progress { background-color:#111; }
 .progress-bar-striped {
